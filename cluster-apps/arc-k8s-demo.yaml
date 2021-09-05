@@ -43,7 +43,7 @@ metadata:
   labels:
     name: arc-k8s-demo
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   ports:
   - port: 8080
   selector:
